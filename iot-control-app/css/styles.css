@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+.controls {
+    margin-top: 40px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.avanzar { background-color: #f39c12; }
+.izq-adelante { background-color: #8d6e63; }
+.der-adelante { background-color: #1abc9c; }
+.giro-360-izq, .giro-360-der { background-color: #7e57c2; }
+.giro-90-izq, .giro-90-der { background-color: #ec407a; }
+.detener { background-color: #f1c40f; color: black; }
+.izq-retrocede, .der-retrocede { background-color: #607d8b; }
+.retroceder { background-color: #e74c3c; }
+
+.turns {
+    margin: 20px 0;
+}
+
+.movement {
+    margin-top: 60px;
+}
+
+#current-status {
+    font-size: 32px;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+footer {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #7f8c8d;
+    color: white;
+    font-size: 14px;
+}

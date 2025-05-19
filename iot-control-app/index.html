@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Vehículo IoT</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>CONTROL DE VEHICULO IOT</h1>
+
+    <div class="controls">
+        <button class="btn izq-adelante" data-status="vuelta-izq-adelante">VUELTA IZQ-adelante</button>
+        <button class="btn avanzar" data-status="avanza">Avanzar</button>
+        <button class="btn der-adelante" data-status="vuelta-der-adelante">VUELTA DER-adelante</button>
+        
+        <div class="turns">
+            <button class="btn giro-360-izq" data-status="giro-360-izq">GIRO 360 IZQ</button>
+            <button class="btn giro-90-izq" data-status="giro-90-izq">GIRO 90 IZQ</button>
+            <button class="btn detener" data-status="detener">Detener</button>
+            <button class="btn giro-90-der" data-status="giro-90-der">GIRO 90 DER</button>
+            <button class="btn giro-360-der" data-status="giro-360-der">GIRO 360 DER</button>
+        </div>
+
+        <button class="btn izq-retrocede" data-status="vuelta-izq-retrocede">VUELTA IZQ-retrocede</button>
+        <button class="btn retroceder" data-status="retroceder">Retroceder</button>
+        <button class="btn der-retrocede" data-status="vuelta-der-retrocede">VUELTA DER-retrocede</button>
+    </div>
+
+    <div class="movement">
+        <h2>MOVIMIENTO</h2>
+        <h1 id="current-status">ESPERANDO</h1>
+    </div>
+
+    <footer>
+        DESARROLLADO POR ANGEL YAHIR CRUZ TORRES
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

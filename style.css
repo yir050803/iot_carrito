@@ -1,0 +1,13 @@
+/* Puedes agregar estilos personalizados aquí */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.alert {
+    font-size: 1.1rem;
+}
